@@ -1,10 +1,19 @@
 import './App.css'
+import TopBar from './components/topbar'
+import Hero from './components/hero'
 
 function App() {
 
   return (
     <>
-      <h1 className='bg-amber-50'>Hello World</h1>
+      <div className='p-5'>
+          <div>
+            <TopBar />
+          </div>
+          <div className='mt-2'>
+            <Hero />
+          </div>
+      </div>
     </>
   )
 }
