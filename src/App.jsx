@@ -1,6 +1,7 @@
 import './App.css'
 import TopBar from './components/topbar'
 import Hero from './components/hero'
+import Products from './components/products'
 
 function App() {
 
@@ -12,6 +13,9 @@ function App() {
           </div>
           <div className='mt-2'>
             <Hero />
+          </div>
+          <div className='mt-5'>
+            <Products />
           </div>
       </div>
     </>
