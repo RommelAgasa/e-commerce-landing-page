@@ -105,12 +105,12 @@ export default function Products() {
                             Browse
                         </button>
                     </div>
-                    <div className="absolute inset-y-0 right-0 sm:right-32 md:right-24 lg:right-0 flex items-center">
+                    <div className="absolute inset-y-0 right-0 sm:right-32 md:right-10 lg:right-0 flex items-center">
                         {console && (
                             <img 
                                 src={console} 
                                 alt="console" 
-                                className="w-[200px] md:w-[420px] h-auto transform rotate-x-30 -rotate-y-10"
+                                className="w-[250px] md:w-[420px] h-auto transform rotate-x-30 -rotate-y-10"
                             />
                         )}
                     </div>
@@ -136,7 +136,7 @@ export default function Products() {
                             <img
                                 src={oculus} 
                                 alt="oculus" 
-                                className="w-[150px] h-42 md:w-[200px] lg:w-[300px] lg:h-76"
+                                className="w-[200px] h-46 md:w-[200px] lg:w-[300px] md:h-62 lg:h-76"
                             />
                         )}
                     </div>
@@ -157,12 +157,12 @@ export default function Products() {
                             Browse
                         </button>
                     </div>
-                    <div className="absolute inset-y-0 right-0 sm:right-32 md:right-24 lg:right-0 flex items-center">
+                    <div className="absolute inset-y-0 right-0 sm:right-32 md:right-5 lg:right-0 flex items-center">
                         {earphone && (
                             <img 
                                 src={speaker} 
                                 alt="speaker" 
-                                className="w-[120px] h-30 md:w-[200px] lg:w-[220px] lg:h-62 transform rotate-45"
+                                className="w-[200px] h-46 md:w-[200px] lg:w-[220px] md:h-52 lg:h-62 transform rotate-45"
                             />
                         )}
                     </div>
