@@ -2,17 +2,27 @@ import earphone from '../assets/img/earphone.png'
 import watch from '../assets/img/watch.png'
 import laptop from '../assets/img/laptop.png'
 
-function ProductCategoryDesignLabel({ prodName, label1, label2 }) {
+function ProductCategoryDesignLabel({ prodName, label1, label2, isrectangle = false}) {
     return (
         <div className="leading-9">
             <h3 className="text-lg md:text-xl">{label1}</h3>
             <h2 className="text-2xl md:text-3xl font-semibold">{label2}</h2>
-            <h1 className="font-bold uppercase text-4xl md:text-6xl lg:text-4xl opacity-40">
-                {prodName}
-            </h1>
+            {
+                isrectangle ? (
+                    <h1 className="font-bold uppercase text-4xl md:text-6xl lg:text-8xl opacity-40">
+                        {prodName}
+                    </h1>
+                ) : (
+                    <h1 className="font-bold uppercase text-4xl md:text-6xl lg:text-4xl opacity-40">
+                        {prodName}
+                    </h1>
+                )
+            }
         </div>
     );
 }
+
+
 export default function Products() {
     return (
         <div className="w-full">
@@ -59,8 +69,8 @@ export default function Products() {
 
                 {/* Laptop Card */}
                 <div className="relative sm:col-span-2 bg-red-600 rounded-2xl overflow-hidden min-h-[250px] md:min-h-[400px]">
-                    <div className="absolute bottom-16 left-8 sm:left-42 md:left-16">
-                        <ProductCategoryDesignLabel prodName="Laptop" label1="Trend" label2="Devices" />
+                    <div className="absolute bottom-16 left-8 sm:left-42 md:left-16 lg:left-12">
+                        <ProductCategoryDesignLabel prodName="Laptop" label1="Trend" label2="Devices" isrectangle={true}/>
                         <button className="mt-2 bg-gray-50 p-1 md:p-2 hover:bg-gray-200 rounded-2xl w-28 text-red-600">
                             Browse
                         </button>
@@ -70,7 +80,7 @@ export default function Products() {
                             <img 
                                 src={laptop} 
                                 alt="laptop" 
-                                className="w-[130px] md:w-[320px] h-auto transform rotate-x-30 -rotate-y-10"
+                                className="w-[150px] md:w-[320px] h-auto transform rotate-x-30 -rotate-y-10"
                             />
                         )}
                     </div>
