@@ -8,8 +8,8 @@ export default function Hero(){
                 py-20
                 rounded-2xl
                 relative">
-            <div className="z-10
-                flex flex-col 
+            <div className="z-10 md:z-0
+                flex flex-col
                 sm:justify-start sm:items-start
                 leading-none 
                 px-5 md:px-20 w-full">
