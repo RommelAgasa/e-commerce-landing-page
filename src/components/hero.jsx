@@ -10,7 +10,6 @@ export default function Hero(){
                 relative">
             <div className="z-10
                 flex flex-col 
-                justify-center items-center 
                 sm:justify-start sm:items-start
                 leading-none 
                 px-5 md:px-20 w-full">
@@ -22,19 +21,21 @@ export default function Hero(){
                     Wireless
                 </div>
 
-                <div className="font-bold text-[clamp(2rem,13vw,12rem)] leading-[1] text-white uppercase">
+                <div className="font-bold text-[clamp(2rem,13vw,18rem)] leading-[1] text-white uppercase">
                     Headphone
                 </div>
 
                 <button className="
                     bg-red-600 hover:bg-red-700 
-                    text-[clamp(0.8rem,2vw,1rem)] 
+                    text-[clamp(0.6rem,2vw,1rem)] 
                     px-[clamp(1rem,3vw,2rem)] 
-                    py-[clamp(0.5rem,1.5vw,1rem)] 
+                    py-[clamp(0.4rem,1.5vw,1rem)] 
                     rounded-3xl 
                     text-white 
                     cursor-pointer 
                     transition-colors
+                    inline-block
+                    w-[110px] md:w-auto
                 ">
                     Shop by Category
                 </button>
