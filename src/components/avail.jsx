@@ -1,7 +1,7 @@
 
 function Perks({ perksName, description, icon }) {
     return (
-        <div className="flex gap-4 items-center">
+        <div className="flex gap-4 items-center lg:px-9">
             <div className="w-10 h-10 flex items-center justify-center text-2xl text-red-600">
                 <i className={icon}></i>
             </div>
