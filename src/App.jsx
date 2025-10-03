@@ -4,6 +4,7 @@ import Hero from './components/hero';
 import Products from './components/products';
 import Avail from './components/avail';
 import Sale from './components/sale';
+import BestSeller from './components/best-seller';
 
 function App() {
 
@@ -29,6 +30,10 @@ function App() {
 
         <div>
           <Sale />
+        </div>
+
+        <div>
+          <BestSeller />
         </div>
       </div>
     </>

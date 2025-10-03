@@ -6,7 +6,7 @@ export default function TopBar(){
         <>
             <div className="flex flex-wrap gap-3 justify-between">
                 <div className="flex flex-wrap w-full sm:w-auto md:gap-9 justify-center items-center">
-                    <div className="uppercase font-bold text-2xl tracking-[5px]">
+                    <div className="uppercase font-bold text-2xl tracking-[5px] cursor-pointer">
                         Phlox
                     </div>
                     <div>
@@ -20,11 +20,11 @@ export default function TopBar(){
                 </div>
                 <div className="w-full sm:w-auto">
                     <div className="flex gap-4 md:gap-7 justify-center items-center">
-                        <div>login</div>
-                        <div>
+                        <div className="cursor-pointer">login</div>
+                        <div className="cursor-pointer">
                             <i class="fa-solid fa-magnifying-glass"></i>
                         </div>
-                        <div>
+                        <div className="cursor-pointer">
                             <i class="fa-solid fa-bell"></i>
                         </div>
                     </div>
