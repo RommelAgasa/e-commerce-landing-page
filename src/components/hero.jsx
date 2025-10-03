@@ -52,19 +52,16 @@ export default function Hero(){
 
             </div>
 
-            
-
-
             {/* Headphone Image */}
             <div className="absolute z-0 inset-0 flex justify-center items-center pointer-events-none">
-                    {headphone && (
-                        <img
-                        src={headphone}
-                        alt="headphone"
-                        className="w-[clamp(200px,25vw,400px)] h-auto drop-shadow-[0_15px_25px_rgba(0,0,0,0.3)]
-"
-                        />
-                    )}
+                {headphone && (
+                    <img
+                    src={headphone}
+                    alt="headphone"
+                    className="w-[clamp(200px,25vw,400px)] 
+                    h-auto drop-shadow-[0_15px_25px_rgba(0,0,0,0.3)]"
+                    />
+                )}
             </div>
 
         </div>

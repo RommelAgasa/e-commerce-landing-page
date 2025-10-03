@@ -97,7 +97,7 @@ export default function Products() {
                         <div className="leading-9">
                             <h3 className="text-lg md:text-2xl text-black">Best</h3>
                             <h2 className="text-2xl md:text-4xl font-semibold text-black">Gaming</h2>
-                            <h1 className="font-bold uppercase text-4xl md:text-6xl lg:text-8xl">
+                            <h1 className="font-bold text-gray-100 uppercase text-4xl md:text-6xl lg:text-8xl">
                                 Console
                             </h1>
                         </div>
